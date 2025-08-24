@@ -110,7 +110,7 @@
     messages.appendChild(userMsg);
 
     // Enviar al backend con fetch
-    fetch("pruebastesisback-production.up.railway.app/api/chat", {
+    fetch("https://pruebastesisback-production.up.railway.app/api/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message: msg, id: widgetId })
