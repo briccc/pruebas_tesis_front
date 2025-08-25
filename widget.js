@@ -1,7 +1,8 @@
 (function () {
   // Obtener ID del widget desde el <script>
-  const scriptTag = document.currentScript;
-  const widgetId = scriptTag.id || "default-widget";
+  // const scriptTag = document.currentScript;
+  // const widgetId = scriptTag.id || "default-widget";
+  const widgetId = "default-widget";
 
   // Botón flotante
   const button = document.createElement("button");
