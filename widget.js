@@ -6,11 +6,11 @@
 
   // Botón flotante
   const button = document.createElement("button");
-  button.innerText = "💬 Chat";
+  button.innerText = "Chat";
   button.style.position = "fixed";
   button.style.bottom = "20px";
   button.style.right = "20px";
-  button.style.zIndex = "9999";
+  button.style.zIndex = "2147483647";
   button.style.padding = "10px 15px";
   button.style.borderRadius = "50px";
   button.style.background = "#007bff";
